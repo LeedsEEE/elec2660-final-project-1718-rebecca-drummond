@@ -15,6 +15,7 @@
 		3433FB651FBB1D3000FAF429 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3433FB641FBB1D3000FAF429 /* main.m */; };
 		3433FB6F1FBB1D3100FAF429 /* lets_go_shoppingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3433FB6E1FBB1D3100FAF429 /* lets_go_shoppingTests.m */; };
 		3433FB7A1FBB1D3100FAF429 /* lets_go_shoppingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3433FB791FBB1D3100FAF429 /* lets_go_shoppingUITests.m */; };
+		349217931FD882590040D7AB /* ViewControllerShoppingList.m in Sources */ = {isa = PBXBuildFile; fileRef = 349217921FD882590040D7AB /* ViewControllerShoppingList.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		3433FB751FBB1D3100FAF429 /* lets go shoppingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "lets go shoppingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3433FB791FBB1D3100FAF429 /* lets_go_shoppingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lets_go_shoppingUITests.m; sourceTree = "<group>"; };
 		3433FB7B1FBB1D3100FAF429 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		349217911FD882590040D7AB /* ViewControllerShoppingList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewControllerShoppingList.h; sourceTree = "<group>"; };
+		349217921FD882590040D7AB /* ViewControllerShoppingList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllerShoppingList.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				3433FB561FBB1D3000FAF429 /* AppDelegate.m */,
 				3433FB581FBB1D3000FAF429 /* ViewController.h */,
 				3433FB591FBB1D3000FAF429 /* ViewController.m */,
+				349217911FD882590040D7AB /* ViewControllerShoppingList.h */,
+				349217921FD882590040D7AB /* ViewControllerShoppingList.m */,
 				3433FB5B1FBB1D3000FAF429 /* Main.storyboard */,
 				3433FB5E1FBB1D3000FAF429 /* Assets.xcassets */,
 				3433FB601FBB1D3000FAF429 /* LaunchScreen.storyboard */,
@@ -267,6 +272,7 @@
 			files = (
 				3433FB5A1FBB1D3000FAF429 /* ViewController.m in Sources */,
 				3433FB651FBB1D3000FAF429 /* main.m in Sources */,
+				349217931FD882590040D7AB /* ViewControllerShoppingList.m in Sources */,
 				3433FB571FBB1D3000FAF429 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
