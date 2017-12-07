@@ -1,18 +1,18 @@
 //
-//  ViewControllerShoppingList.m
+//  ViewControllerShoppingListItemDetails.m
 //  lets go shopping
 //
 //  Created by Rebecca Drummond on 06/12/2017.
 //  Copyright © 2017 Univercity of leeds. All rights reserved.
 //
 
-#import "ViewControllerShoppingList.h"
+#import "ViewControllerShoppingListItemDetails.h"
 
-@interface ViewControllerShoppingList ()
+@interface ViewControllerShoppingListItemDetails ()
 
 @end
 
-@implementation ViewControllerShoppingList
+@implementation ViewControllerShoppingListItemDetails
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -23,30 +23,6 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
-
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(nonnull NSIndexPath *)indexPath {
-    UITableViewCell *Cell2 = [tableView dequeueReusableCellWithIdentifier:@"Cell2" forIndexPath:indexPath];
-    
-    Cell2.textLabel.text = @"items";
-    
-    
-    
-    return Cell2;
-}
-
-- (NSInteger)tableView:(nonnull UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    
-    
-    
-    return 10;
-}
-
-- (NSInteger) numberOfSectionsInTableView:(UITableView *)tableView {
-    
-    return 1;
-}
-
 
 /*
 #pragma mark - Navigation

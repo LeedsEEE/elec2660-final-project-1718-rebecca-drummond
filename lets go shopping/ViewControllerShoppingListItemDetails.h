@@ -1,5 +1,5 @@
 //
-//  ViewControllerShoppingList.h
+//  ViewControllerShoppingListItemDetails.h
 //  lets go shopping
 //
 //  Created by Rebecca Drummond on 06/12/2017.
@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewControllerShoppingList : UIViewController
-@property (weak, nonatomic) IBOutlet UITableView *TableViewShoppingListItems;
+@interface ViewControllerShoppingListItemDetails : UIViewController
 
 @end
