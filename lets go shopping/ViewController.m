@@ -7,6 +7,9 @@
 //
 
 #import "ViewController.h"
+#import "ShoppingListDataModel.h"
+#import "ShoppingListModule.h"
+
 
 @interface ViewController ()
 
@@ -18,6 +21,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.data = [[ShoppingListDataModel alloc] init];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -29,7 +33,8 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(nonnull NSIndexPath *)indexPath {
     UITableViewCell *Cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
     
-    Cell.textLabel.text = @"List 1";
+    ShoppingListModule *tempModule = [self.data.MainShoppingList objectAtIndex: indexPath.row];
+    Cell.textLabel.text = tempModule.title;
     
 
     
@@ -38,7 +43,16 @@
 
 - (NSInteger)tableView:(nonnull UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     
-    return 10;
+    NSInteger numberOfRows;
+    
+    
+    if(section == 0){
+        numberOfRows = self.data.MainShoppingList.count;
+    }
+    else{
+        numberOfRows = 0;
+    }
+    return numberOfRows;
 }
 
 - (NSInteger) numberOfSectionsInTableView:(UITableView *)tableView {

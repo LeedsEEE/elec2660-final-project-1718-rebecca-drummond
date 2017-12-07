@@ -7,10 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ShoppingListDataModel.h"
+#import "ShoppingListModule.h"
 
 @interface ViewController : UIViewController
 
 @property (weak, nonatomic) IBOutlet UITableView *TableViewShoppingList;
+
+@property (strong, nonatomic) ShoppingListDataModel *data;
 
 
 

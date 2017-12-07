@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		340182B41FD9960B009EC66D /* ShoppingListModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 340182B31FD9960B009EC66D /* ShoppingListModule.m */; };
+		340182B71FD99625009EC66D /* ShoppingListDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 340182B61FD99625009EC66D /* ShoppingListDataModel.m */; };
 		3433FB571FBB1D3000FAF429 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3433FB561FBB1D3000FAF429 /* AppDelegate.m */; };
 		3433FB5A1FBB1D3000FAF429 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3433FB591FBB1D3000FAF429 /* ViewController.m */; };
 		3433FB5D1FBB1D3000FAF429 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3433FB5B1FBB1D3000FAF429 /* Main.storyboard */; };
@@ -37,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		340182B21FD9960B009EC66D /* ShoppingListModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShoppingListModule.h; sourceTree = "<group>"; };
+		340182B31FD9960B009EC66D /* ShoppingListModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShoppingListModule.m; sourceTree = "<group>"; };
+		340182B51FD99625009EC66D /* ShoppingListDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShoppingListDataModel.h; sourceTree = "<group>"; };
+		340182B61FD99625009EC66D /* ShoppingListDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShoppingListDataModel.m; sourceTree = "<group>"; };
 		3433FB521FBB1D3000FAF429 /* lets go shopping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lets go shopping.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3433FB551FBB1D3000FAF429 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3433FB561FBB1D3000FAF429 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -116,6 +122,10 @@
 				349217941FD8920A0040D7AB /* ViewControllerShoppingListItemDetails.h */,
 				349217951FD8920A0040D7AB /* ViewControllerShoppingListItemDetails.m */,
 				3433FB5B1FBB1D3000FAF429 /* Main.storyboard */,
+				340182B21FD9960B009EC66D /* ShoppingListModule.h */,
+				340182B31FD9960B009EC66D /* ShoppingListModule.m */,
+				340182B51FD99625009EC66D /* ShoppingListDataModel.h */,
+				340182B61FD99625009EC66D /* ShoppingListDataModel.m */,
 				3433FB5E1FBB1D3000FAF429 /* Assets.xcassets */,
 				3433FB601FBB1D3000FAF429 /* LaunchScreen.storyboard */,
 				3433FB631FBB1D3000FAF429 /* Info.plist */,
@@ -278,6 +288,8 @@
 				3433FB5A1FBB1D3000FAF429 /* ViewController.m in Sources */,
 				3433FB651FBB1D3000FAF429 /* main.m in Sources */,
 				349217961FD8920A0040D7AB /* ViewControllerShoppingListItemDetails.m in Sources */,
+				340182B41FD9960B009EC66D /* ShoppingListModule.m in Sources */,
+				340182B71FD99625009EC66D /* ShoppingListDataModel.m in Sources */,
 				349217931FD882590040D7AB /* ViewControllerShoppingList.m in Sources */,
 				3433FB571FBB1D3000FAF429 /* AppDelegate.m in Sources */,
 			);
