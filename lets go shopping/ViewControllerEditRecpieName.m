@@ -1,18 +1,18 @@
 //
-//  ViewControllerShoppingListItemDetails.m
+//  ViewControllerEditRecpieName.m
 //  lets go shopping
 //
-//  Created by Rebecca Drummond on 06/12/2017.
+//  Created by Rebecca Drummond on 07/12/2017.
 //  Copyright © 2017 Univercity of leeds. All rights reserved.
 //
 
-#import "ViewControllerShoppingListItemDetails.h"
+#import "ViewControllerEditRecpieName.h"
 
-@interface ViewControllerShoppingListItemDetails ()
+@interface ViewControllerEditRecpieName ()
 
 @end
 
-@implementation ViewControllerShoppingListItemDetails
+@implementation ViewControllerEditRecpieName
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -23,10 +23,6 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
-
-
-
 
 /*
 #pragma mark - Navigation

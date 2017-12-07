@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		340182B41FD9960B009EC66D /* ShoppingListModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 340182B31FD9960B009EC66D /* ShoppingListModule.m */; };
 		340182B71FD99625009EC66D /* ShoppingListDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 340182B61FD99625009EC66D /* ShoppingListDataModel.m */; };
+		340182BA1FD99F4A009EC66D /* ViewControllerEditRecpie.m in Sources */ = {isa = PBXBuildFile; fileRef = 340182B91FD99F4A009EC66D /* ViewControllerEditRecpie.m */; };
+		340182BD1FD9A1A7009EC66D /* ViewControllerEditRecpieItems.m in Sources */ = {isa = PBXBuildFile; fileRef = 340182BC1FD9A1A7009EC66D /* ViewControllerEditRecpieItems.m */; };
+		340182C01FD9A4B7009EC66D /* ViewControllerEditRecpieName.m in Sources */ = {isa = PBXBuildFile; fileRef = 340182BF1FD9A4B7009EC66D /* ViewControllerEditRecpieName.m */; };
 		3433FB571FBB1D3000FAF429 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3433FB561FBB1D3000FAF429 /* AppDelegate.m */; };
 		3433FB5A1FBB1D3000FAF429 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3433FB591FBB1D3000FAF429 /* ViewController.m */; };
 		3433FB5D1FBB1D3000FAF429 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3433FB5B1FBB1D3000FAF429 /* Main.storyboard */; };
@@ -17,6 +20,7 @@
 		3433FB651FBB1D3000FAF429 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3433FB641FBB1D3000FAF429 /* main.m */; };
 		3433FB6F1FBB1D3100FAF429 /* lets_go_shoppingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3433FB6E1FBB1D3100FAF429 /* lets_go_shoppingTests.m */; };
 		3433FB7A1FBB1D3100FAF429 /* lets_go_shoppingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3433FB791FBB1D3100FAF429 /* lets_go_shoppingUITests.m */; };
+		3472AF1A1FD9B78000929B65 /* ViewControllerAddRecpieItemsToShoppingList.m in Sources */ = {isa = PBXBuildFile; fileRef = 3472AF191FD9B78000929B65 /* ViewControllerAddRecpieItemsToShoppingList.m */; };
 		349217931FD882590040D7AB /* ViewControllerShoppingList.m in Sources */ = {isa = PBXBuildFile; fileRef = 349217921FD882590040D7AB /* ViewControllerShoppingList.m */; };
 		349217961FD8920A0040D7AB /* ViewControllerShoppingListItemDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 349217951FD8920A0040D7AB /* ViewControllerShoppingListItemDetails.m */; };
 /* End PBXBuildFile section */
@@ -43,6 +47,12 @@
 		340182B31FD9960B009EC66D /* ShoppingListModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShoppingListModule.m; sourceTree = "<group>"; };
 		340182B51FD99625009EC66D /* ShoppingListDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShoppingListDataModel.h; sourceTree = "<group>"; };
 		340182B61FD99625009EC66D /* ShoppingListDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShoppingListDataModel.m; sourceTree = "<group>"; };
+		340182B81FD99F4A009EC66D /* ViewControllerEditRecpie.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewControllerEditRecpie.h; sourceTree = "<group>"; };
+		340182B91FD99F4A009EC66D /* ViewControllerEditRecpie.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllerEditRecpie.m; sourceTree = "<group>"; };
+		340182BB1FD9A1A7009EC66D /* ViewControllerEditRecpieItems.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewControllerEditRecpieItems.h; sourceTree = "<group>"; };
+		340182BC1FD9A1A7009EC66D /* ViewControllerEditRecpieItems.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllerEditRecpieItems.m; sourceTree = "<group>"; };
+		340182BE1FD9A4B7009EC66D /* ViewControllerEditRecpieName.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewControllerEditRecpieName.h; sourceTree = "<group>"; };
+		340182BF1FD9A4B7009EC66D /* ViewControllerEditRecpieName.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllerEditRecpieName.m; sourceTree = "<group>"; };
 		3433FB521FBB1D3000FAF429 /* lets go shopping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lets go shopping.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3433FB551FBB1D3000FAF429 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3433FB561FBB1D3000FAF429 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -59,6 +69,8 @@
 		3433FB751FBB1D3100FAF429 /* lets go shoppingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "lets go shoppingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3433FB791FBB1D3100FAF429 /* lets_go_shoppingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lets_go_shoppingUITests.m; sourceTree = "<group>"; };
 		3433FB7B1FBB1D3100FAF429 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3472AF181FD9B78000929B65 /* ViewControllerAddRecpieItemsToShoppingList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewControllerAddRecpieItemsToShoppingList.h; sourceTree = "<group>"; };
+		3472AF191FD9B78000929B65 /* ViewControllerAddRecpieItemsToShoppingList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllerAddRecpieItemsToShoppingList.m; sourceTree = "<group>"; };
 		349217911FD882590040D7AB /* ViewControllerShoppingList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewControllerShoppingList.h; sourceTree = "<group>"; };
 		349217921FD882590040D7AB /* ViewControllerShoppingList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllerShoppingList.m; sourceTree = "<group>"; };
 		349217941FD8920A0040D7AB /* ViewControllerShoppingListItemDetails.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewControllerShoppingListItemDetails.h; sourceTree = "<group>"; };
@@ -121,6 +133,14 @@
 				349217921FD882590040D7AB /* ViewControllerShoppingList.m */,
 				349217941FD8920A0040D7AB /* ViewControllerShoppingListItemDetails.h */,
 				349217951FD8920A0040D7AB /* ViewControllerShoppingListItemDetails.m */,
+				340182B81FD99F4A009EC66D /* ViewControllerEditRecpie.h */,
+				340182B91FD99F4A009EC66D /* ViewControllerEditRecpie.m */,
+				340182BE1FD9A4B7009EC66D /* ViewControllerEditRecpieName.h */,
+				340182BF1FD9A4B7009EC66D /* ViewControllerEditRecpieName.m */,
+				340182BB1FD9A1A7009EC66D /* ViewControllerEditRecpieItems.h */,
+				340182BC1FD9A1A7009EC66D /* ViewControllerEditRecpieItems.m */,
+				3472AF181FD9B78000929B65 /* ViewControllerAddRecpieItemsToShoppingList.h */,
+				3472AF191FD9B78000929B65 /* ViewControllerAddRecpieItemsToShoppingList.m */,
 				3433FB5B1FBB1D3000FAF429 /* Main.storyboard */,
 				340182B21FD9960B009EC66D /* ShoppingListModule.h */,
 				340182B31FD9960B009EC66D /* ShoppingListModule.m */,
@@ -285,9 +305,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3472AF1A1FD9B78000929B65 /* ViewControllerAddRecpieItemsToShoppingList.m in Sources */,
 				3433FB5A1FBB1D3000FAF429 /* ViewController.m in Sources */,
 				3433FB651FBB1D3000FAF429 /* main.m in Sources */,
+				340182BA1FD99F4A009EC66D /* ViewControllerEditRecpie.m in Sources */,
+				340182C01FD9A4B7009EC66D /* ViewControllerEditRecpieName.m in Sources */,
 				349217961FD8920A0040D7AB /* ViewControllerShoppingListItemDetails.m in Sources */,
+				340182BD1FD9A1A7009EC66D /* ViewControllerEditRecpieItems.m in Sources */,
 				340182B41FD9960B009EC66D /* ShoppingListModule.m in Sources */,
 				340182B71FD99625009EC66D /* ShoppingListDataModel.m in Sources */,
 				349217931FD882590040D7AB /* ViewControllerShoppingList.m in Sources */,
