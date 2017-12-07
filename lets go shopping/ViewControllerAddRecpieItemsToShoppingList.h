@@ -7,8 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RecpieDataModel.h"
+#import "RecpieModule.h"
 
 @interface ViewControllerAddRecpieItemsToShoppingList : UIViewController
 @property (weak, nonatomic) IBOutlet UITableView *TableViewAddRecpieToShoppingList;
+
+@property (strong, nonatomic) RecpieDataModel *RecpieData1;
 
 @end

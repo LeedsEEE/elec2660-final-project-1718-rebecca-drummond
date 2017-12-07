@@ -21,6 +21,8 @@
 		3433FB6F1FBB1D3100FAF429 /* lets_go_shoppingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3433FB6E1FBB1D3100FAF429 /* lets_go_shoppingTests.m */; };
 		3433FB7A1FBB1D3100FAF429 /* lets_go_shoppingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3433FB791FBB1D3100FAF429 /* lets_go_shoppingUITests.m */; };
 		3472AF1A1FD9B78000929B65 /* ViewControllerAddRecpieItemsToShoppingList.m in Sources */ = {isa = PBXBuildFile; fileRef = 3472AF191FD9B78000929B65 /* ViewControllerAddRecpieItemsToShoppingList.m */; };
+		3472AF1D1FD9C43100929B65 /* RecpieModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 3472AF1C1FD9C43100929B65 /* RecpieModule.m */; };
+		3472AF201FD9C44900929B65 /* RecpieDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3472AF1F1FD9C44900929B65 /* RecpieDataModel.m */; };
 		349217931FD882590040D7AB /* ViewControllerShoppingList.m in Sources */ = {isa = PBXBuildFile; fileRef = 349217921FD882590040D7AB /* ViewControllerShoppingList.m */; };
 		349217961FD8920A0040D7AB /* ViewControllerShoppingListItemDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 349217951FD8920A0040D7AB /* ViewControllerShoppingListItemDetails.m */; };
 /* End PBXBuildFile section */
@@ -71,6 +73,10 @@
 		3433FB7B1FBB1D3100FAF429 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3472AF181FD9B78000929B65 /* ViewControllerAddRecpieItemsToShoppingList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewControllerAddRecpieItemsToShoppingList.h; sourceTree = "<group>"; };
 		3472AF191FD9B78000929B65 /* ViewControllerAddRecpieItemsToShoppingList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllerAddRecpieItemsToShoppingList.m; sourceTree = "<group>"; };
+		3472AF1B1FD9C43100929B65 /* RecpieModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecpieModule.h; sourceTree = "<group>"; };
+		3472AF1C1FD9C43100929B65 /* RecpieModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecpieModule.m; sourceTree = "<group>"; };
+		3472AF1E1FD9C44900929B65 /* RecpieDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecpieDataModel.h; sourceTree = "<group>"; };
+		3472AF1F1FD9C44900929B65 /* RecpieDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecpieDataModel.m; sourceTree = "<group>"; };
 		349217911FD882590040D7AB /* ViewControllerShoppingList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewControllerShoppingList.h; sourceTree = "<group>"; };
 		349217921FD882590040D7AB /* ViewControllerShoppingList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllerShoppingList.m; sourceTree = "<group>"; };
 		349217941FD8920A0040D7AB /* ViewControllerShoppingListItemDetails.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewControllerShoppingListItemDetails.h; sourceTree = "<group>"; };
@@ -146,6 +152,10 @@
 				340182B31FD9960B009EC66D /* ShoppingListModule.m */,
 				340182B51FD99625009EC66D /* ShoppingListDataModel.h */,
 				340182B61FD99625009EC66D /* ShoppingListDataModel.m */,
+				3472AF1B1FD9C43100929B65 /* RecpieModule.h */,
+				3472AF1C1FD9C43100929B65 /* RecpieModule.m */,
+				3472AF1E1FD9C44900929B65 /* RecpieDataModel.h */,
+				3472AF1F1FD9C44900929B65 /* RecpieDataModel.m */,
 				3433FB5E1FBB1D3000FAF429 /* Assets.xcassets */,
 				3433FB601FBB1D3000FAF429 /* LaunchScreen.storyboard */,
 				3433FB631FBB1D3000FAF429 /* Info.plist */,
@@ -307,11 +317,13 @@
 			files = (
 				3472AF1A1FD9B78000929B65 /* ViewControllerAddRecpieItemsToShoppingList.m in Sources */,
 				3433FB5A1FBB1D3000FAF429 /* ViewController.m in Sources */,
+				3472AF201FD9C44900929B65 /* RecpieDataModel.m in Sources */,
 				3433FB651FBB1D3000FAF429 /* main.m in Sources */,
 				340182BA1FD99F4A009EC66D /* ViewControllerEditRecpie.m in Sources */,
 				340182C01FD9A4B7009EC66D /* ViewControllerEditRecpieName.m in Sources */,
 				349217961FD8920A0040D7AB /* ViewControllerShoppingListItemDetails.m in Sources */,
 				340182BD1FD9A1A7009EC66D /* ViewControllerEditRecpieItems.m in Sources */,
+				3472AF1D1FD9C43100929B65 /* RecpieModule.m in Sources */,
 				340182B41FD9960B009EC66D /* ShoppingListModule.m in Sources */,
 				340182B71FD99625009EC66D /* ShoppingListDataModel.m in Sources */,
 				349217931FD882590040D7AB /* ViewControllerShoppingList.m in Sources */,

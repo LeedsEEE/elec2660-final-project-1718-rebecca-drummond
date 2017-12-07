@@ -7,6 +7,8 @@
 //
 
 #import "ViewControllerEditRecpie.h"
+#import "RecpieDataModel.h"
+#import "RecpieModule.h"
 
 @interface ViewControllerEditRecpie ()
 
@@ -17,6 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.RecpieData = [[RecpieDataModel alloc] init];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -28,16 +31,25 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(nonnull NSIndexPath *)indexPath {
     UITableViewCell *Cell3 = [tableView dequeueReusableCellWithIdentifier:@"Cell3" forIndexPath:indexPath];
     
-    Cell3.textLabel.text = @"Recpie";
+    RecpieModule *tempModule = [self.RecpieData.MainRecpieList objectAtIndex: indexPath.row];
+    Cell3.textLabel.text = tempModule.RecpieTitle;
     
     return Cell3;
 }
 
 - (NSInteger)tableView:(nonnull UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     
+    NSInteger numberOfRows;
     
     
-    return 10;
+    if(section == 0){
+        numberOfRows = self.RecpieData.MainRecpieList.count;
+    }
+    else{
+        numberOfRows = 0;
+    }
+    return numberOfRows;
+    
 }
 
 - (NSInteger) numberOfSectionsInTableView:(UITableView *)tableView {

@@ -45,6 +45,39 @@
             ShoppingListModule *list9 = [[ShoppingListModule alloc] init];
             list9.title = @"List 9";
             
+            ShoppingListModule *list10 = [[ShoppingListModule alloc] init];
+            list10.title = @"List 10";
+            
+            ShoppingListModule *list11 = [[ShoppingListModule alloc] init];
+            list11.title = @"List 11";
+            
+            ShoppingListModule *list12 = [[ShoppingListModule alloc] init];
+            list12.title = @"List 12";
+            
+            ShoppingListModule *list13 = [[ShoppingListModule alloc] init];
+            list13.title = @"List 13";
+            
+            ShoppingListModule *list14 = [[ShoppingListModule alloc] init];
+            list14.title = @"List 14";
+            
+            ShoppingListModule *list15 = [[ShoppingListModule alloc] init];
+            list15.title = @"List 15";
+            
+            ShoppingListModule *list16 = [[ShoppingListModule alloc] init];
+            list16.title = @"List 16";
+            
+            ShoppingListModule *list17 = [[ShoppingListModule alloc] init];
+            list17.title = @"List 17";
+            
+            ShoppingListModule *list18 = [[ShoppingListModule alloc] init];
+            list18.title = @"List 18";
+            
+            ShoppingListModule *list19 = [[ShoppingListModule alloc] init];
+            list19.title = @"List 19";
+            
+            ShoppingListModule *list20 = [[ShoppingListModule alloc] init];
+            list20.title = @"List 20";
+            
             [self.MainShoppingList addObject:list1];
             [self.MainShoppingList addObject:list2];
             [self.MainShoppingList addObject:list3];
@@ -54,6 +87,17 @@
             [self.MainShoppingList addObject:list7];
             [self.MainShoppingList addObject:list8];
             [self.MainShoppingList addObject:list9];
+            [self.MainShoppingList addObject:list10];
+            [self.MainShoppingList addObject:list11];
+            [self.MainShoppingList addObject:list12];
+            [self.MainShoppingList addObject:list13];
+            [self.MainShoppingList addObject:list14];
+            [self.MainShoppingList addObject:list15];
+            [self.MainShoppingList addObject:list16];
+            [self.MainShoppingList addObject:list17];
+            [self.MainShoppingList addObject:list18];
+            [self.MainShoppingList addObject:list19];
+            [self.MainShoppingList addObject:list20];
             
             
         }

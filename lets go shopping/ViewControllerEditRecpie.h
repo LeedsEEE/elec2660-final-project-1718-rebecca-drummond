@@ -7,8 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RecpieDataModel.h"
+#import "RecpieModule.h"
 
 @interface ViewControllerEditRecpie : UIViewController
 @property (weak, nonatomic) IBOutlet UITableView *TebleViewEditRecpie;
+
+@property (strong, nonatomic) RecpieDataModel *RecpieData;
 
 @end

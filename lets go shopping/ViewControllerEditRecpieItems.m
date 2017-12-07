@@ -39,7 +39,7 @@
     
     
     
-    return 10;
+    return 20;
 }
 
 - (NSInteger) numberOfSectionsInTableView:(UITableView *)tableView {

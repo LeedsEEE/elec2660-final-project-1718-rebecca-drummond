@@ -436,6 +436,12 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quantity" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7gW-CL-g4W">
+                                <rect key="frame" x="16" y="176" width="65" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ypw-Oq-v0x">
                                 <rect key="frame" x="16" y="207" width="343" height="30"/>
                                 <nil key="textColor"/>
@@ -443,26 +449,30 @@
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t8e-QZ-GKp">
-                                <rect key="frame" x="135" y="277" width="104" height="38"/>
+                                <rect key="frame" x="135.5" y="355" width="104" height="38"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <state key="normal" title="Delete Item"/>
                                 <connections>
                                     <segue destination="XQd-eQ-OFn" kind="show" id="yiM-OC-fm3"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quantity" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7gW-CL-g4W">
-                                <rect key="frame" x="16" y="176" width="65" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PDs-Ve-IJd">
+                                <rect key="frame" x="163" y="277" width="49" height="38"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" title="Done"/>
+                                <connections>
+                                    <segue destination="wSp-Vp-YI7" kind="show" id="Kb2-LK-JMq"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="PDs-Ve-IJd" firstAttribute="top" secondItem="Ypw-Oq-v0x" secondAttribute="bottom" constant="40" id="0EU-iP-ie3"/>
                             <constraint firstItem="XoK-pO-nyw" firstAttribute="leading" secondItem="cSt-hi-nZe" secondAttribute="leading" constant="16" id="3Dg-Be-n2o"/>
+                            <constraint firstItem="t8e-QZ-GKp" firstAttribute="top" secondItem="PDs-Ve-IJd" secondAttribute="bottom" constant="40" id="AHi-YV-oSj"/>
+                            <constraint firstItem="PDs-Ve-IJd" firstAttribute="centerX" secondItem="cSt-hi-nZe" secondAttribute="centerX" id="HaD-AK-DbG"/>
                             <constraint firstItem="Ypw-Oq-v0x" firstAttribute="top" secondItem="7gW-CL-g4W" secondAttribute="bottom" constant="10" id="J6y-tX-Frs"/>
                             <constraint firstItem="ypA-v9-YUh" firstAttribute="top" secondItem="XoK-pO-nyw" secondAttribute="bottom" constant="10" id="MjQ-e2-QRm"/>
-                            <constraint firstItem="t8e-QZ-GKp" firstAttribute="top" secondItem="Ypw-Oq-v0x" secondAttribute="bottom" constant="40" id="S9H-KK-9oz"/>
                             <constraint firstItem="t8e-QZ-GKp" firstAttribute="centerX" secondItem="cSt-hi-nZe" secondAttribute="centerX" id="Z3l-j8-zXa"/>
                             <constraint firstItem="7gW-CL-g4W" firstAttribute="leading" secondItem="cSt-hi-nZe" secondAttribute="leading" constant="16" id="cV8-Gj-iFy"/>
                             <constraint firstItem="XoK-pO-nyw" firstAttribute="top" secondItem="cSt-hi-nZe" secondAttribute="top" constant="60" id="dqA-Pt-354"/>
@@ -1128,7 +1138,7 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="oRm-lx-CFd"/>
-        <segue reference="STj-i0-dNF"/>
+        <segue reference="Kb2-LK-JMq"/>
         <segue reference="vFq-Mv-Wyu"/>
         <segue reference="9jv-AB-sNc"/>
     </inferredMetricsTieBreakers>
